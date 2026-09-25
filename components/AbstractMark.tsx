@@ -15,7 +15,7 @@ export function AbstractMark({ label }: { label: string }) {
         aria-label={label}
         className="relative h-full w-full"
       >
-        <circle cx="180" cy="180" r="176" fill="#fffef6" />
+        <circle cx="180" cy="180" r="176" fill="#f8fefe" />
         <circle
           cx="180"
           cy="180"

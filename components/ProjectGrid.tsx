@@ -15,7 +15,7 @@ export async function ProjectGrid() {
   }));
 
   return (
-    <Section id="projects">
+    <Section id="projects" className="pt-8 pb-20 sm:pt-10 sm:pb-24">
       <SectionHeading kicker="03" title={t("title")} description={t("intro")} />
       <ProjectTabs
         allLabel={t("filters.all")}

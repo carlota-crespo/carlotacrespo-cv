@@ -47,14 +47,11 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 px-3 pt-3 sm:px-5">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-full border border-line bg-card/90 px-3 py-2 shadow-[var(--shadow)] backdrop-blur sm:px-5">
-        <a
-          href="#home"
-          className="inline-flex min-h-11 items-center rounded-full px-3 font-display text-sm font-semibold tracking-[0.18em] text-foreground"
+      <div className="relative mx-auto flex w-full max-w-6xl items-center rounded-full border border-line bg-card/90 px-3 py-2 shadow-[var(--shadow)] backdrop-blur sm:px-5">
+        <nav
+          className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 lg:flex"
+          aria-label={a11y("mainNav")}
         >
-          CCS
-        </a>
-        <nav className="hidden items-center gap-1 lg:flex" aria-label={a11y("mainNav")}>
           {SECTION_IDS.map((id) => (
             <a
               key={id}
@@ -70,7 +67,7 @@ export function Header() {
             </a>
           ))}
         </nav>
-        <div className="flex items-center gap-1">
+        <div className="ml-auto flex items-center gap-1">
           <LanguageSwitcher />
           <button
             type="button"

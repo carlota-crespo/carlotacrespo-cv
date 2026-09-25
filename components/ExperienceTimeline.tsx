@@ -10,7 +10,7 @@ export async function ExperienceTimeline() {
   const upcoming = isSpecializedRoleUpcoming();
 
   return (
-    <Section id="experience">
+    <Section id="experience" className="pt-20 pb-8 sm:pt-24 sm:pb-10">
       <SectionHeading kicker={`02 · ${t("company")}`} title={t("title")} />
       <ol className="relative space-y-5 border-l border-line pl-6 sm:pl-8">
         {[...EXPERIENCE_ROLES].reverse().map((role, index) => {

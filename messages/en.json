@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "Carlota Crespo Suárez | Business Analyst & Product Owner",
+    "description": "Business Analyst and Product Owner specialising in Compliance, Corporate Governance and global digital products, with a career developed at Nestlé.",
+    "ogImageAlt": "Carlota Crespo Suárez, Business Analyst and Product Owner"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "mainNav": "Main navigation",
+    "languageSwitcher": "Select language",
+    "externalLink": "Opens in a new tab",
+    "activeLanguage": "Active language",
+    "sectionNav": "Page sections"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Carlota Crespo Suárez",
+    "headline": "Business Analyst & Product Owner",
+    "subheadline": "Compliance, Corporate Governance and Global Digital Products",
+    "intro": "Business Analyst and Product Owner with a career developed at Nestlé, specialising at the intersection of business, technology, Compliance and Corporate Governance. Experienced in product ownership, functional analysis, global support and the deployment of digital tools used by international teams.",
+    "value": "I connect Compliance, Corporate Governance, business and technology to turn global needs into useful, scalable and easy-to-adopt digital products.",
+    "markLabel": "Typographic composition with the initials CCS",
+    "ctaExperience": "View experience",
+    "ctaContact": "Get in touch",
+    "ctaLinkedin": "LinkedIn",
+    "highlights": [
+      "Global experience at Nestlé.",
+      "Hybrid Business Analyst and Product Owner profile.",
+      "Specialisation in Compliance and Corporate Governance.",
+      "Experience with Power Platform and Power BI.",
+      "Spanish, Catalan, English and French."
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "p1": "My background combines Law, Global Governance, Business Administration and Strategic Business Analytics. This multidisciplinary education enables me to understand regulatory and corporate governance contexts while addressing business needs, data and the evolution of digital products.",
+    "p2": "At Nestlé, I have progressed from an internship to taking on responsibilities as a Business Analyst and Product Owner. I provide worldwide support, collaborate with multicultural teams and contribute to the successful global deployment of Compliance and Corporate Governance tools.",
+    "p3": "I focus on turning complex needs into clear solutions, coordinating the people involved and supporting the adoption of digital tools across international environments.",
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "Law and Global Governance",
+        "org": "ESADE"
+      },
+      {
+        "title": "Business Administration and Management",
+        "org": "UOC"
+      },
+      {
+        "title": "Master’s Degree in Strategic Business Analytics",
+        "org": "EAE"
+      },
+      {
+        "title": "Professional Kanban I",
+        "org": "Professional certification"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "company": "Nestlé",
+    "upcomingPrefix": "Upcoming role",
+    "achievementsTitle": "Cross-functional achievements and responsibilities",
+    "roles": {
+      "intern": {
+        "period": "September 2023 – February 2024",
+        "description": "Started a professional career working with digital products connected to corporate and Compliance environments."
+      },
+      "entry": {
+        "period": "February 2024 – February 2025",
+        "description": "Progressed towards responsibilities involving analysis, functional support and collaboration between business needs and digital tools."
+      },
+      "junior": {
+        "period": "March 2025 – September 2025",
+        "description": "Consolidated experience as an analyst while contributing to products and processes with an international scope."
+      },
+      "mission": {
+        "period": "October 2025 – October 2026",
+        "description": "Business Analyst on Mission assignment that included covering a six-month paternity leave in a Product Owner capacity and taking on additional product responsibilities."
+      },
+      "specialized": {
+        "period": "From October 2026",
+        "description": "Specialised Business Analyst role focused on Compliance and Corporate Governance products and processes."
+      }
+    },
+    "achievements": [
+      "Progression from an internship to Business Analyst and Product Owner responsibilities.",
+      "Worldwide support for Nestlé.",
+      "Coordination with international and multicultural teams.",
+      "Contribution to successful global deployments.",
+      "Connection of business, Compliance, Corporate Governance and technology needs.",
+      "Assumption of additional product responsibilities while covering a paternity leave.",
+      "Functional support and evolution of corporate tools used across international environments."
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Product areas I have worked on, described without confidential information or vendor names.",
+    "contributionLabel": "Contribution",
+    "filters": {
+      "all": "All areas",
+      "label": "Filter projects by area"
+    },
+    "items": {
+      "whistleblowing": {
+        "title": "Whistleblowing Systems",
+        "area": "Compliance",
+        "description": "Product Owner experience with tools designed to support whistleblowing processes within a global corporate environment.",
+        "contributions": [
+          "Connection between functional needs and product evolution.",
+          "Collaboration with international teams and users.",
+          "Support for global adoption and deployment.",
+          "Follow-up of needs within a sensitive Compliance area."
+        ]
+      },
+      "socialAudit": {
+        "title": "Social Audit Tools",
+        "area": "Compliance and corporate sustainability",
+        "description": "Experience with digital products that support social audit processes.",
+        "contributions": [
+          "Analysis of functional needs.",
+          "Coordination within an international environment.",
+          "Support for product evolution and use.",
+          "Contribution to global deployments."
+        ]
+      },
+      "repositories": {
+        "title": "Document Repositories",
+        "area": "Information management",
+        "description": "Experience with tools designed to organise and facilitate access to corporate documentation.",
+        "contributions": [
+          "Understanding of business and user needs.",
+          "Functional support.",
+          "Coordination of improvements and product evolution.",
+          "Focus on information structure and availability."
+        ]
+      },
+      "governance": {
+        "title": "Corporate Governance Tools",
+        "area": "Corporate governance",
+        "description": "Experience with products designed to manage information, entities and processes related to corporate governance.",
+        "contributions": [
+          "Functional analysis within a specialised area.",
+          "Collaboration with Corporate Governance teams.",
+          "Support for international users and processes.",
+          "Contribution to the evolution of corporate tools."
+        ]
+      },
+      "conflicts": {
+        "title": "Conflicts of Interest and Gifts",
+        "area": "Ethics and Compliance",
+        "description": "Support for tools related to the declaration and management of conflicts of interest and gifts.",
+        "contributions": [
+          "Functional support for the tools.",
+          "Understanding of Compliance processes.",
+          "Attention to user needs.",
+          "Collaboration within a global and multicultural environment."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": {
+      "product": {
+        "title": "Product and analysis",
+        "items": [
+          "Business Analysis",
+          "Product Ownership",
+          "Functional needs analysis",
+          "Business and technology coordination",
+          "Functional support",
+          "Digital product evolution",
+          "Global deployments",
+          "International teamwork",
+          "Kanban"
+        ]
+      },
+      "expertise": {
+        "title": "Areas of expertise",
+        "items": [
+          "Compliance",
+          "Corporate Governance",
+          "Whistleblowing systems",
+          "Social audits",
+          "Document repositories",
+          "Conflicts of interest",
+          "Corporate gift-related processes"
+        ]
+      },
+      "tools": {
+        "title": "Tools",
+        "items": [
+          "Power BI — key strength",
+          "Power Apps",
+          "Power Automate",
+          "Microsoft Power Platform"
+        ]
+      },
+      "strengths": {
+        "title": "Professional strengths",
+        "items": [
+          "Cross-cultural communication",
+          "Adaptability to global environments",
+          "Analytical thinking",
+          "Stakeholder coordination",
+          "Understanding of regulatory and business contexts",
+          "Translation of complex needs into functional solutions"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "items": [
+          "Spanish",
+          "Catalan",
+          "English",
+          "French — intermediate level"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Would you like to discuss an opportunity, project or challenge related to product, Compliance or Corporate Governance? You can contact me through the form or connect with me on LinkedIn.",
+    "linkedin": "Connect on LinkedIn",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "submit": "Send message",
+    "sending": "Sending…",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "message": "Please write a message of at least 10 characters."
+    },
+    "success": "Thank you for getting in touch. I have received your message and will reply as soon as possible.",
+    "sendError": "Your message could not be sent. Please try again later or contact me through LinkedIn.",
+    "notEnabled": "Form submissions are not enabled yet. Please contact me through LinkedIn."
+  },
+  "footer": {
+    "personal": "Personal website",
+    "independence": "Independent site, not affiliated with Nestlé."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist.",
+    "home": "Back to home"
+  }
+}

@@ -119,7 +119,7 @@ export function ContactForm() {
           disabled={disabled}
           aria-invalid={Boolean(fieldErrors.name)}
           aria-describedby={fieldErrors.name ? "contact-name-error" : undefined}
-          className="mt-2 w-full min-h-11 rounded-full border border-white/15 bg-white/95 px-4 py-2 text-foreground"
+          className="mt-2 w-full min-h-11 rounded-full border border-line bg-background px-4 py-2 text-foreground"
           onFocus={onStart}
           onChange={(event) => {
             setName(event.target.value);
@@ -147,7 +147,7 @@ export function ContactForm() {
           disabled={disabled}
           aria-invalid={Boolean(fieldErrors.email)}
           aria-describedby={fieldErrors.email ? "contact-email-error" : undefined}
-          className="mt-2 w-full min-h-11 rounded-full border border-white/15 bg-white/95 px-4 py-2 text-foreground"
+          className="mt-2 w-full min-h-11 rounded-full border border-line bg-background px-4 py-2 text-foreground"
           onFocus={onStart}
           onChange={(event) => {
             setEmail(event.target.value);
@@ -177,7 +177,7 @@ export function ContactForm() {
           aria-describedby={
             fieldErrors.message ? "contact-message-error" : undefined
           }
-          className="mt-2 w-full rounded-3xl border border-white/15 bg-white/95 px-4 py-3 text-foreground"
+          className="mt-2 w-full rounded-3xl border border-line bg-background px-4 py-3 text-foreground"
           onFocus={onStart}
           onChange={(event) => {
             setMessage(event.target.value);

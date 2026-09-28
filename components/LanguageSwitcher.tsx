@@ -28,7 +28,7 @@ export function LanguageSwitcher() {
             href="/"
             locale={option.locale}
             className={`inline-flex min-h-10 min-w-10 items-center justify-center rounded-full px-2 ${
-              active ? "bg-navy text-foreground" : "text-muted hover:text-foreground"
+              active ? "bg-lilac text-foreground" : "text-muted hover:text-foreground"
             }`}
             aria-current={active ? "true" : undefined}
             aria-label={

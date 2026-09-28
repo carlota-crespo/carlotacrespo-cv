@@ -136,7 +136,7 @@ function TabButton({
       aria-controls="project-panel"
       className={`min-h-11 rounded-full px-4 py-2 text-sm font-semibold ${
         selected
-          ? "bg-navy text-foreground"
+          ? "bg-teal text-white"
           : "border border-line bg-card text-foreground hover:bg-white"
       }`}
       onClick={onSelect}

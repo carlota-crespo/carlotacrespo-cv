@@ -16,21 +16,21 @@ export function SectionHeading({
   tone = "light",
 }: Props) {
   const titleColor = tone === "dark" ? "text-white" : "text-foreground";
-  const kickerColor = tone === "dark" ? "text-[#f3d5cc]" : "text-teal";
+  const kickerColor = tone === "dark" ? "text-teal" : "text-teal";
   const descriptionColor = tone === "dark" ? "text-white/80" : "text-muted";
 
   return (
-    <div className="mb-10 flex flex-col gap-4 sm:mb-14 lg:flex-row lg:items-end lg:justify-between">
+    <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
       <div className="max-w-3xl">
         {kicker ? (
           <p
-            className={`mb-3 font-display text-sm font-semibold tracking-[0.22em] uppercase ${kickerColor}`}
+            className={`mb-2 text-sm font-semibold tracking-[0.16em] uppercase ${kickerColor}`}
           >
             {kicker}
           </p>
         ) : null}
         <h2
-          className={`font-display text-4xl font-semibold tracking-tight sm:text-5xl ${titleColor}`}
+          className={`text-3xl font-semibold tracking-tight sm:text-4xl ${titleColor}`}
         >
           {title}
         </h2>

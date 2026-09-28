@@ -10,7 +10,7 @@ export default async function NotFound() {
       <p className="text-muted">{t("body")}</p>
       <Link
         href="/"
-        className="inline-flex min-h-11 items-center rounded-full bg-navy px-5 font-semibold text-foreground"
+        className="inline-flex min-h-11 items-center rounded-full bg-teal px-5 font-semibold text-white"
       >
         {t("home")}
       </Link>

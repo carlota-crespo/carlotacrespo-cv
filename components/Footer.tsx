@@ -6,7 +6,7 @@ export async function Footer() {
 
   return (
     <footer className="px-4 pb-10 sm:px-6">
-      <div className="mx-auto flex max-w-6xl flex-col gap-3 rounded-full border border-line bg-card px-6 py-5 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto flex max-w-6xl flex-col gap-2 border-t border-line px-2 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
         <p className="font-display font-semibold tracking-wide text-foreground">
           {SITE_NAME} · {t("personal")}
         </p>

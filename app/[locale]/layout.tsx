@@ -2,20 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { Outfit, Source_Sans_3 } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { getSiteUrl, LINKEDIN_URL, SITE_NAME } from "@/lib/constants";
 import "../globals.css";
 
-const sourceSans = Source_Sans_3({
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-source-sans",
-  display: "swap",
-});
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
+  variable: "--font-jakarta",
   display: "swap",
 });
 
@@ -91,7 +85,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${sourceSans.variable} ${outfit.variable} h-full antialiased`}
+      className={`${jakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background font-sans text-foreground">
         <script

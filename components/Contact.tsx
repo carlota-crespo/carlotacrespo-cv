@@ -13,7 +13,7 @@ export function Contact() {
 
   return (
     <Section id="contact">
-      <div className="rounded-[36px] bg-navy px-6 py-10 text-foreground sm:px-10 sm:py-14">
+      <div className="rounded-[28px] border border-line bg-card px-6 py-10 sm:px-10 sm:py-12">
         <SectionHeading kicker="05" title={t("title")} />
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>

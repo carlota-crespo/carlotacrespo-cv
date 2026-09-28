@@ -22,7 +22,7 @@ export async function Skills() {
           return (
             <article
               key={id}
-              className="rounded-[28px] border border-line bg-card p-6 shadow-[var(--shadow)]"
+              className="rounded-[24px] bg-lilac p-6"
             >
               <h3 className="font-display text-2xl font-semibold text-foreground">
                 {t(`groups.${id}.title`)}
@@ -31,7 +31,7 @@ export async function Skills() {
                 {items.map((item, index) => (
                   <li
                     key={`${id}-${index}`}
-                    className="rounded-full bg-background px-3 py-1.5 text-sm text-foreground"
+                    className="rounded-full bg-card px-3 py-1.5 text-sm text-foreground"
                   >
                     {item}
                   </li>

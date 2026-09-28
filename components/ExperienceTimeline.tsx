@@ -27,7 +27,7 @@ export async function ExperienceTimeline() {
                   isUpcoming ? "border-2 border-teal bg-background" : "bg-teal"
                 }`}
               />
-              <article className="rounded-[28px] border border-line bg-card p-5 shadow-[var(--shadow)] sm:p-7">
+              <article className="rounded-[24px] border border-line bg-card p-5 sm:p-7">
                 <p className="font-display text-sm font-semibold text-teal">
                   {String(index + 1).padStart(2, "0")}
                 </p>
@@ -43,7 +43,7 @@ export async function ExperienceTimeline() {
           );
         })}
       </ol>
-      <div className="mt-10 rounded-[32px] bg-navy p-6 text-foreground sm:p-8">
+      <div className="mt-8 rounded-[24px] bg-lilac p-6 text-foreground sm:p-8">
         <h3 className="font-display text-2xl font-semibold">
           {t("achievementsTitle")}
         </h3>

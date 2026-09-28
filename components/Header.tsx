@@ -7,6 +7,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Header() {
   const t = useTranslations("nav");
+  const hero = useTranslations("hero");
   const a11y = useTranslations("a11y");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<SectionId>("home");
@@ -47,7 +48,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 px-3 pt-3 sm:px-5">
-      <div className="relative mx-auto flex w-full max-w-6xl items-center rounded-full border border-line bg-card/90 px-3 py-2 shadow-[var(--shadow)] backdrop-blur sm:px-5">
+      <div className="relative mx-auto flex w-full max-w-6xl items-center gap-3 px-1 py-3 sm:px-2">
+        <a
+          href="#home"
+          className="shrink-0 text-sm font-semibold text-foreground sm:text-base"
+        >
+          {hero("name")}
+        </a>
         <nav
           className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 lg:flex"
           aria-label={a11y("mainNav")}
@@ -58,7 +65,7 @@ export function Header() {
               href={`#${id}`}
               className={`rounded-full px-3 py-2 text-sm font-medium ${
                 active === id
-                  ? "bg-navy text-foreground"
+                  ? "bg-lilac text-foreground"
                   : "text-muted hover:text-foreground"
               }`}
               aria-current={active === id ? "true" : undefined}

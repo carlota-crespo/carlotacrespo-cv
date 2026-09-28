@@ -32,6 +32,7 @@
     "ctaExperience": "Ver experiencia",
     "ctaContact": "Contactar",
     "ctaLinkedin": "LinkedIn",
+    "hookLabel": "10-second hook",
     "highlights": [
       "Experiencia global en el Nestlé IT Hub en Barcelona.",
       "Perfil híbrido de Business Analyst y Product Owner.",
@@ -72,19 +73,19 @@
     "achievementsTitle": "Logros y responsabilidades transversales",
     "roles": {
       "intern": {
-        "period": "Septiembre de 2023 – febrero de 2024",
+        "period": "Septiembre de 2023 – febrero de 2024 (6 meses)",
         "description": "Inicio de la trayectoria en productos digitales vinculados al entorno corporativo y de Compliance."
       },
       "entry": {
-        "period": "Febrero de 2024 – febrero de 2025",
+        "period": "Febrero de 2024 – febrero de 2025 (1 año y 1 mes)",
         "description": "Evolución hacia responsabilidades de análisis, soporte funcional y colaboración entre las necesidades de negocio y las herramientas digitales."
       },
       "junior": {
-        "period": "Marzo de 2025 – septiembre de 2025",
+        "period": "Marzo de 2025 – septiembre de 2025 (7 meses)",
         "description": "Consolidación de la experiencia como analista y participación en productos y procesos de alcance internacional."
       },
       "mission": {
-        "period": "Octubre de 2025 – octubre de 2026",
+        "period": "Octubre de 2025 – octubre de 2026 (1 año y 1 mes)",
         "description": "Etapa como Business Analyst on Mission que incluyó la cobertura durante seis meses de una baja de paternidad en funciones de Product Owner, asumiendo responsabilidades adicionales de producto."
       },
       "specialized": {

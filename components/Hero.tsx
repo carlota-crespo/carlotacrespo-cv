@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ExternalLink } from "./ExternalLink";
 import { LINKEDIN_URL } from "@/lib/constants";
@@ -16,11 +17,23 @@ export function Hero() {
     >
       <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
         <div>
-          <p className="text-sm font-semibold tracking-tight text-ink">{t("name")}</p>
-          <p className="mt-2 inline-flex max-w-full items-center gap-2 rounded-full bg-sand px-3 py-1 text-xs font-medium text-ink">
-            <span className="size-1.5 rounded-full bg-rose-deep" aria-hidden="true" />
-            {t("headline")}
-          </p>
+          <div className="flex items-center gap-4 sm:gap-5">
+            <Image
+              src="/carlota-portrait.jpg"
+              alt=""
+              width={176}
+              height={176}
+              priority
+              className="size-32 shrink-0 rounded-3xl object-cover shadow-sm ring-1 ring-sand sm:size-40"
+            />
+            <div className="min-w-0">
+              <p className="text-sm font-semibold tracking-tight text-ink">{t("name")}</p>
+              <p className="mt-2 inline-flex max-w-full items-center gap-2 rounded-full bg-sand px-3 py-1 text-xs font-medium text-ink">
+                <span className="size-1.5 shrink-0 rounded-full bg-rose-deep" aria-hidden="true" />
+                {t("headline")}
+              </p>
+            </div>
+          </div>
           <h1 className="mt-5 max-w-3xl text-[1.65rem] leading-tight font-semibold tracking-tight text-ink sm:text-4xl lg:text-5xl">
             {t("subheadline")}
           </h1>

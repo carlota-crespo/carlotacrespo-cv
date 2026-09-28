@@ -49,10 +49,7 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-background/70 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="#home" className="shrink-0 text-sm font-semibold tracking-tight text-ink">
-          {hero("name")}
-        </a>
-        <nav className="hidden items-center gap-4 xl:flex" aria-label={a11y("mainNav")}>
+        <nav className="ml-auto hidden items-center gap-4 xl:flex" aria-label={a11y("mainNav")}>
           {SECTION_IDS.map((id) => (
             <a
               key={id}
@@ -73,7 +70,7 @@ export function Header() {
           </a>
           <LanguageSwitcher />
         </nav>
-        <div className="flex items-center gap-2 xl:hidden">
+        <div className="ml-auto flex items-center gap-2 xl:hidden">
           <LanguageSwitcher />
           <button
             type="button"

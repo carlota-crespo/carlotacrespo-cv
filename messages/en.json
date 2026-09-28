@@ -141,6 +141,10 @@
     "kicker": "Projects",
     "title": "Selected Projects",
     "intro": "A selection of projects reflecting my experience across Compliance Technology, Corporate Governance, Business Analysis, data and digital transformation.",
+    "filters": {
+      "all": "All areas",
+      "label": "Filter projects by area"
+    },
     "mission": {
       "kicker": "Product Ownership Experience",
       "title": "A period of increased product ownership",

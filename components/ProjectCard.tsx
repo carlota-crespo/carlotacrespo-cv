@@ -1,6 +1,7 @@
 export type ProjectCardData = {
   id: string;
   area: string;
+  filter: string;
   title: string;
   description: string;
   contributions: string[];

@@ -141,6 +141,10 @@
     "kicker": "Proyectos",
     "title": "Proyectos destacados",
     "intro": "Una selección de proyectos que reflejan mi experiencia en Compliance Technology, Corporate Governance, Business Analysis, datos y transformación digital.",
+    "filters": {
+      "all": "Todas las áreas",
+      "label": "Filtrar proyectos por área"
+    },
     "mission": {
       "kicker": "Product Ownership Experience",
       "title": "Una etapa con mayor responsabilidad de producto",

@@ -1,5 +1,6 @@
 export const SITE_NAME = "Carlota Crespo Suárez";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/carlotacresposuarez/";
+export const EMAIL = "carlota-crespo@hotmail.com";
 export const CONTACT_SOURCE = "personal-cv-web";
 export const SPECIALIZED_ROLE_START = "2026-10-01";
 

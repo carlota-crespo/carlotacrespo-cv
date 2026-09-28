@@ -93,7 +93,7 @@ export function ContactForm() {
   const disabled = status === "submitting";
 
   return (
-    <form className="relative mt-8 space-y-5" onSubmit={onSubmit} noValidate>
+    <form className="relative space-y-5" onSubmit={onSubmit} noValidate>
       <div aria-hidden="true" className="hidden">
           <input
             name="company"
@@ -104,7 +104,7 @@ export function ContactForm() {
           />
       </div>
       <div>
-        <label htmlFor="contact-name" className="block font-semibold">
+        <label htmlFor="contact-name" className="block text-sm font-medium text-ink">
           {t("fields.name")}
         </label>
         <input
@@ -119,7 +119,7 @@ export function ContactForm() {
           disabled={disabled}
           aria-invalid={Boolean(fieldErrors.name)}
           aria-describedby={fieldErrors.name ? "contact-name-error" : undefined}
-          className="mt-2 w-full min-h-11 rounded-full border border-line bg-background px-4 py-2 text-foreground"
+          className="mt-1.5 w-full rounded-2xl border border-sand bg-background px-4 py-3 text-ink outline-none ring-rose-deep/40 focus:ring-2"
           onFocus={onStart}
           onChange={(event) => {
             setName(event.target.value);
@@ -133,7 +133,7 @@ export function ContactForm() {
         ) : null}
       </div>
       <div>
-        <label htmlFor="contact-email" className="block font-semibold">
+        <label htmlFor="contact-email" className="mt-5 block text-sm font-medium text-ink">
           {t("fields.email")}
         </label>
         <input
@@ -147,7 +147,7 @@ export function ContactForm() {
           disabled={disabled}
           aria-invalid={Boolean(fieldErrors.email)}
           aria-describedby={fieldErrors.email ? "contact-email-error" : undefined}
-          className="mt-2 w-full min-h-11 rounded-full border border-line bg-background px-4 py-2 text-foreground"
+          className="mt-1.5 w-full rounded-2xl border border-sand bg-background px-4 py-3 text-ink outline-none ring-rose-deep/40 focus:ring-2"
           onFocus={onStart}
           onChange={(event) => {
             setEmail(event.target.value);
@@ -161,7 +161,7 @@ export function ContactForm() {
         ) : null}
       </div>
       <div>
-        <label htmlFor="contact-message" className="block font-semibold">
+        <label htmlFor="contact-message" className="mt-5 block text-sm font-medium text-ink">
           {t("fields.message")}
         </label>
         <textarea
@@ -177,7 +177,7 @@ export function ContactForm() {
           aria-describedby={
             fieldErrors.message ? "contact-message-error" : undefined
           }
-          className="mt-2 w-full rounded-3xl border border-line bg-background px-4 py-3 text-foreground"
+          className="mt-1.5 w-full resize-y rounded-2xl border border-sand bg-background px-4 py-3 text-ink outline-none ring-rose-deep/40 focus:ring-2"
           onFocus={onStart}
           onChange={(event) => {
             setMessage(event.target.value);
@@ -197,7 +197,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={disabled}
-        className="inline-flex min-h-12 items-center rounded-full bg-teal px-6 py-2.5 font-semibold text-white hover:bg-teal/90 disabled:cursor-not-allowed disabled:opacity-70"
+        className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-rose-deep px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-teal disabled:cursor-not-allowed disabled:opacity-70"
       >
         {status === "submitting" ? t("sending") : t("submit")}
       </button>
@@ -207,7 +207,7 @@ export function ContactForm() {
         {formError}
       </div>
       {status === "success" ? (
-        <p className="rounded-2xl bg-teal/15 p-4" role="status">
+        <p className="rounded-2xl bg-rose/50 p-4 text-ink" role="status">
           {t("success")}
         </p>
       ) : null}

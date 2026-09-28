@@ -1,17 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbf8f3;
-  --foreground: #2c2433;
-  --navy: #2f9aa3;
-  --cobalt: #6b4f86;
-  --teal: #2f9aa3;
-  --lilac: #efe6f8;
-  --muted: #6e6576;
+  --background: #fdfbf7;
+  --foreground: #2d2424;
+  --navy: #2d2424;
+  --cobalt: #16867f;
+  --teal: #12706a;
+  --lilac: #f6f0e8;
+  --sand: #f6f0e8;
+  --rose: #c8f0ea;
+  --rose-deep: #16867f;
+  --ink: #2d2424;
+  --ink-soft: #4a3e3d;
+  --muted: #4a3e3d;
   --card: #ffffff;
-  --line: #e7dfef;
-  --focus: #2f9aa3;
-  --shadow: 0 10px 30px rgba(80, 60, 110, 0.06);
+  --line: #e7ddd2;
+  --focus: #16867f;
+  --shadow: 0 10px 30px rgba(45, 36, 36, 0.06);
 }
 
 @theme inline {
@@ -21,6 +26,11 @@
   --color-cobalt: var(--cobalt);
   --color-teal: var(--teal);
   --color-lilac: var(--lilac);
+  --color-sand: var(--sand);
+  --color-rose: var(--rose);
+  --color-rose-deep: var(--rose-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
   --color-muted: var(--muted);
   --color-card: var(--card);
   --color-line: var(--line);
@@ -49,11 +59,21 @@ html {
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: var(--ink-soft);
   font-family: var(--font-jakarta), "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   overflow-x: clip;
+}
+
+.grain {
+  background-image: radial-gradient(rgba(45, 36, 36, 0.035) 0.6px, transparent 0);
+  background-size: 14px 14px;
+}
+
+::selection {
+  background: var(--rose);
+  color: var(--ink);
 }
 
 :focus-visible {
@@ -90,7 +110,7 @@ body {
   }
 
   .card-surface:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 16px 40px rgba(80, 60, 110, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 16px 40px rgba(45, 36, 36, 0.08);
   }
 }

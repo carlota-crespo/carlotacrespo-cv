@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { FocusAreas } from "@/components/FocusAreas";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { Skills } from "@/components/Skills";
@@ -32,6 +33,7 @@ export default async function HomePage({ params }: Props) {
       <main id="main">
         <Hero />
         <About />
+        <FocusAreas />
         <ExperienceTimeline />
         <ProjectGrid />
         <Skills />

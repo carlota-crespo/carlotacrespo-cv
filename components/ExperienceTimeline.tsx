@@ -6,14 +6,14 @@ import { SectionHeading } from "./SectionHeading";
 
 export async function ExperienceTimeline() {
   const t = await getTranslations("experience");
-  const achievements = t.raw("achievements") as string[];
+  const achievements = t.raw("achievements") as { lead: string; text: string }[];
   const upcoming = isSpecializedRoleUpcoming();
 
   return (
-    <Section id="experience" className="pt-20 pb-8 sm:pt-24 sm:pb-10">
-      <SectionHeading kicker={`02 · ${t("company")}`} title={t("title")} />
-      <ol className="relative space-y-5 border-l border-line pl-6 sm:pl-8">
-        {[...EXPERIENCE_ROLES].reverse().map((role, index) => {
+    <Section id="experience" className="scroll-mt-24 py-16 sm:py-24">
+      <SectionHeading index={3} kicker={t("title")} title={t("heading")} />
+      <ol className="relative space-y-8 border-l border-rose/80 pl-6 sm:pl-8">
+        {[...EXPERIENCE_ROLES].reverse().map((role) => {
           const isUpcoming = role.id === "specialized" && upcoming;
           const title = isUpcoming
             ? `${t("upcomingPrefix")} — ${role.title}`
@@ -23,38 +23,37 @@ export async function ExperienceTimeline() {
             <li key={role.id} className="relative">
               <span
                 aria-hidden="true"
-                className={`absolute top-6 -left-[1.7rem] h-3 w-3 rounded-full sm:-left-[2.2rem] ${
-                  isUpcoming ? "border-2 border-teal bg-background" : "bg-teal"
+                className={`absolute top-1.5 -left-[1.9rem] size-3.5 rounded-full border-2 border-background sm:-left-[2.4rem] ${
+                  isUpcoming ? "bg-rose" : "bg-rose-deep"
                 }`}
               />
-              <article className="rounded-[24px] border border-line bg-card p-5 sm:p-7">
-                <p className="font-display text-sm font-semibold text-teal">
-                  {String(index + 1).padStart(2, "0")}
+              <article className="rounded-3xl border border-sand bg-white/70 p-6 shadow-sm transition hover:border-rose">
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <h3 className="text-lg font-semibold text-ink">{title}</h3>
+                  <p className="text-sm text-ink-soft">{t(`roles.${role.id}.period`)}</p>
+                </div>
+                <p className="mt-1 text-sm font-medium text-rose-deep">{t("company")}</p>
+                <p className="mt-4 text-sm leading-relaxed text-ink-soft">
+                  {t(`roles.${role.id}.description`)}
                 </p>
-                <h3 className="mt-2 font-display text-xl font-semibold text-foreground sm:text-2xl">
-                  {title}
-                </h3>
-                <p className="mt-1 text-sm font-medium text-cobalt">
-                  {t(`roles.${role.id}.period`)}
-                </p>
-                <p className="mt-3 max-w-3xl">{t(`roles.${role.id}.description`)}</p>
               </article>
             </li>
           );
         })}
       </ol>
-      <div className="mt-8 rounded-[24px] bg-lilac p-6 text-foreground sm:p-8">
-        <h3 className="font-display text-2xl font-semibold">
-          {t("achievementsTitle")}
-        </h3>
+      <div className="mt-8 rounded-3xl bg-sand p-6 text-ink-soft sm:p-8">
+        <h3 className="text-lg font-semibold text-ink">{t("achievementsTitle")}</h3>
         <ul className="mt-6 grid gap-4 md:grid-cols-2">
           {achievements.map((item) => (
-            <li key={item} className="flex gap-3">
+            <li key={item.lead} className="flex gap-3 text-sm leading-relaxed">
               <span
                 aria-hidden="true"
-                className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal"
+                className="mt-2 size-1.5 shrink-0 rounded-full bg-rose-deep"
               />
-              <span>{item}</span>
+              <span>
+                <span className="font-semibold text-ink">{item.lead}</span>
+                {item.text}
+              </span>
             </li>
           ))}
         </ul>

@@ -1,16 +1,10 @@
-import { getTranslations } from "next-intl/server";
 import { SITE_NAME } from "@/lib/constants";
 
-export async function Footer() {
-  const t = await getTranslations("footer");
-
+export function Footer() {
   return (
-    <footer className="px-4 pb-10 sm:px-6">
-      <div className="mx-auto flex max-w-6xl flex-col gap-2 border-t border-line px-2 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
-        <p className="font-display font-semibold tracking-wide text-foreground">
-          {SITE_NAME} · {t("personal")}
-        </p>
-        <p>{t("independence")}</p>
+    <footer className="border-t border-sand py-8">
+      <div className="mx-auto max-w-6xl px-4 text-sm text-ink-soft sm:px-6">
+        <p>© {new Date().getFullYear()} {SITE_NAME}</p>
       </div>
     </footer>
   );

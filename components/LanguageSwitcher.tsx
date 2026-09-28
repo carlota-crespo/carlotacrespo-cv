@@ -16,7 +16,7 @@ export function LanguageSwitcher() {
 
   return (
     <div
-      className="flex items-center rounded-full bg-background p-1 text-sm font-semibold tracking-wide"
+      className="flex items-center rounded-full border border-sand bg-white/70 p-1 text-sm font-semibold tracking-wide"
       role="group"
       aria-label={t("languageSwitcher")}
     >
@@ -28,7 +28,7 @@ export function LanguageSwitcher() {
             href="/"
             locale={option.locale}
             className={`inline-flex min-h-10 min-w-10 items-center justify-center rounded-full px-2 ${
-              active ? "bg-lilac text-foreground" : "text-muted hover:text-foreground"
+              active ? "bg-sand text-ink" : "text-ink-soft hover:text-ink"
             }`}
             aria-current={active ? "true" : undefined}
             aria-label={

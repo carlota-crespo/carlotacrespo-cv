@@ -12,15 +12,17 @@ export async function ProjectGrid() {
     title: t(`items.${id}.title`),
     description: t(`items.${id}.description`),
     contributions: t.raw(`items.${id}.contributions`) as string[],
+    skills: t.raw(`items.${id}.skills`) as string[],
   }));
 
   return (
-    <Section id="projects" className="pt-8 pb-20 sm:pt-10 sm:pb-24">
-      <SectionHeading kicker="03" title={t("title")} description={t("intro")} />
+    <Section id="projects" className="scroll-mt-24 py-16 sm:py-24">
+      <SectionHeading index={4} title={t("title")} description={t("intro")} />
       <ProjectTabs
         allLabel={t("filters.all")}
         filterLabel={t("filters.label")}
         contributionLabel={t("contributionLabel")}
+        skillsLabel={t("skillsLabel")}
         projects={projects}
       />
     </Section>

@@ -27,11 +27,13 @@ export const EXPERIENCE_ROLES = [
 ];
 
 export const PROJECT_IDS = [
+  "conflicts",
   "whistleblowing",
+  "governance",
+  "complianceHub",
+  "analytics",
   "socialAudit",
   "repositories",
-  "governance",
-  "conflicts",
 ] as const;
 
 export type ProjectId = (typeof PROJECT_IDS)[number];

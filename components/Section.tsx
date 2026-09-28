@@ -14,7 +14,7 @@ export function Section({
   return (
     <section
       id={id}
-      className={`scroll-mt-28 px-4 sm:px-6 ${className}`}
+      className={`scroll-mt-24 px-4 sm:px-6 ${className}`}
     >
       <div className="mx-auto max-w-6xl">{children}</div>
     </section>

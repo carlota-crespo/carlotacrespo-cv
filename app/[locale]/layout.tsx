@@ -77,7 +77,22 @@ export default async function LocaleLayout({ children, params }: Props) {
     "@context": "https://schema.org",
     "@type": "Person",
     name: SITE_NAME,
-    jobTitle: "Business Analyst & Product Owner",
+    jobTitle: "Business Analyst",
+    description:
+      locale === "es"
+        ? "Business Analyst con experiencia de Product Ownership en Compliance Technology y Corporate Governance, y trabajo en datos, transformación digital y automatización."
+        : "Business Analyst with Product Ownership experience in Compliance Technology and Corporate Governance, and work across data, digital transformation and automation.",
+    knowsAbout: [
+      "Business Analysis",
+      "Product Ownership",
+      "Compliance Technology",
+      "Corporate Governance",
+      "Data Analytics",
+      "Power BI",
+      "Digital Transformation",
+      "Process Automation",
+      "AI Governance",
+    ],
     url: `${siteUrl}/${locale}`,
     sameAs: [LINKEDIN_URL],
   };
@@ -87,7 +102,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
       className={`${jakarta.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-background font-sans text-foreground">
+      <body className="grain min-h-full bg-background font-sans text-ink-soft">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}

@@ -9,12 +9,14 @@ export type ProjectCardData = {
   title: string;
   description: string;
   contributions: string[];
+  skills: string[];
 };
 
 type Props = {
   allLabel: string;
   filterLabel: string;
   contributionLabel: string;
+  skillsLabel: string;
   projects: ProjectCardData[];
 };
 
@@ -22,6 +24,7 @@ export function ProjectTabs({
   allLabel,
   filterLabel,
   contributionLabel,
+  skillsLabel,
   projects,
 }: Props) {
   const areas = useMemo(
@@ -71,45 +74,43 @@ export function ProjectTabs({
             : `project-tab-${areas.indexOf(active)}`
         }
       >
-        <ul className="grid gap-6 md:grid-cols-2">
-          {visible.map((project, index) => {
-            const featured = active === "all" && index === 0;
-            return (
-              <li
-                key={project.id}
-                className={`card-surface flex flex-col rounded-[32px] p-6 sm:p-8 ${
-                  featured
-                    ? "md:col-span-2 md:grid md:grid-cols-[0.9fr_1.1fr] md:gap-10"
-                    : ""
-                }`}
-              >
-                <div>
-                  <p className="font-display text-sm font-semibold tracking-[0.16em] text-teal uppercase">
-                    {String(index + 1).padStart(2, "0")} · {project.area}
-                  </p>
-                  <h3 className="mt-3 font-display text-2xl font-semibold text-foreground sm:text-3xl">
-                    {project.title}
-                  </h3>
-                  <p className="mt-4 text-lg">{project.description}</p>
-                </div>
-                <div className={featured ? "mt-6 md:mt-0" : "mt-6"}>
-                  <p className="text-sm font-semibold tracking-wide text-foreground uppercase">
-                    {contributionLabel}
-                  </p>
-                  <ul className="mt-3 space-y-2">
-                    {project.contributions.map((item) => (
-                      <li key={item} className="flex gap-2">
-                        <span aria-hidden="true" className="text-teal">
-                          –
-                        </span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
+        <ul className="grid gap-5 md:grid-cols-2">
+          {visible.map((project) => (
+            <li
+              key={project.id}
+              className="flex flex-col rounded-3xl border border-sand bg-white/80 p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-rose hover:shadow-md"
+            >
+              <span className="w-fit rounded-full bg-sand px-3 py-1 text-xs font-semibold text-ink">
+                {project.area}
+              </span>
+              <h3 className="mt-4 text-lg font-semibold text-ink">{project.title}</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                {project.description}
+              </p>
+              <p className="mt-4 text-sm font-semibold text-ink">{contributionLabel}</p>
+              <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-ink-soft">
+                {project.contributions.map((item) => (
+                  <li key={item} className="flex gap-2">
+                    <span aria-hidden="true" className="text-rose-deep">
+                      –
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-5 text-sm font-semibold text-ink">{skillsLabel}</p>
+              <ul className="mt-2 flex flex-wrap gap-2">
+                {project.skills.map((skill) => (
+                  <li
+                    key={skill}
+                    className="rounded-full bg-sand px-2.5 py-1 text-xs text-ink-soft"
+                  >
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
@@ -134,10 +135,10 @@ function TabButton({
       role="tab"
       aria-selected={selected}
       aria-controls="project-panel"
-      className={`min-h-11 rounded-full px-4 py-2 text-sm font-semibold ${
+      className={`rounded-full px-4 py-2 text-sm font-medium transition ${
         selected
-          ? "bg-teal text-white"
-          : "border border-line bg-card text-foreground hover:bg-white"
+          ? "bg-rose-deep text-white shadow-sm"
+          : "bg-sand text-ink-soft hover:bg-rose"
       }`}
       onClick={onSelect}
     >

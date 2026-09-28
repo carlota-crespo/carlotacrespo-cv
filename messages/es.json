@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Carlota Crespo Suárez | Business Analyst & Product Owner",
-    "description": "Business Analyst y Product Owner especializada en Compliance, Corporate Governance y productos digitales globales, con trayectoria en Nestlé.",
-    "ogImageAlt": "Carlota Crespo Suárez, Business Analyst y Product Owner"
+    "title": "Carlota Crespo Suárez | Business Analyst · Compliance Technology",
+    "description": "Business Analyst en Nestlé con experiencia de Product Ownership en Compliance Technology y Corporate Governance, y trabajo en datos, Power BI, transformación digital y automatización.",
+    "ogImageAlt": "Carlota Crespo Suárez, Business Analyst en Compliance Technology"
   },
   "a11y": {
     "skipToContent": "Saltar al contenido principal",
@@ -25,32 +25,48 @@
   "hero": {
     "name": "Carlota Crespo Suárez",
     "headline": "Business Analyst & Product Owner",
-    "subheadline": "Herramientas digitales globales de Compliance & Corporate Governance",
-    "intro": "Profesional con una trayectoria desarrollada en Nestlé, especializada en el punto de encuentro entre negocio, tecnología, Compliance y Corporate Governance. Cuento con experiencia en product ownership, análisis funcional, soporte global y despliegue de herramientas utilizadas por equipos internacionales.",
-    "value": "Conecto Compliance, Corporate Governance, negocio y tecnología para convertir necesidades globales en aplicaciones digitales útiles, escalables y fáciles de adoptar.",
+    "subheadline": "Transformando Compliance en Productos Digitales",
+    "specialties": "Compliance · Technology · Data · Global Products · AI",
+    "intro": "Business Analyst con experiencia en Product Ownership y especializada en Compliance Technology y Corporate Governance. Trabajo en la intersección entre negocio, tecnología y datos, transformando necesidades complejas en soluciones digitales para entornos internacionales.",
+    "location": "Barcelona, Cataluña, España",
+    "value": "Mi foco está en conectar usuarios, procesos y tecnología para impulsar productos escalables, mejorar la toma de decisiones a través de los datos y facilitar la adopción de soluciones digitales a nivel global.",
     "markLabel": "Composición tipográfica con las iniciales CCS",
     "ctaExperience": "Ver experiencia",
     "ctaContact": "Contactar",
     "ctaLinkedin": "LinkedIn",
-    "hookLabel": "10-second hook",
+    "hookLabel": "En un vistazo",
     "highlights": [
-      "Experiencia global en el Nestlé IT Hub en Barcelona.",
-      "Perfil híbrido de Business Analyst y Product Owner.",
-      "Especialización en Compliance y Corporate Governance.",
-      "Experiencia en Power Platform y Power BI.",
-      "Español, catalán, inglés y francés."
+      { "value": "+3 años", "label": "experiencia total" },
+      { "value": "Compliance Technology", "label": "Compliance & Corporate Governance" },
+      { "value": "BA & Product Owner", "label": "análisis y producto" },
+      { "value": "Data & Power BI", "label": "analytics y reporting" },
+      { "value": "Transformación digital", "label": "automatización" },
+      { "value": "Equipos globales", "label": "entornos multiculturales" }
     ]
   },
   "about": {
     "title": "Sobre mí",
-    "p1": "Mi perfil combina Derecho, Global Governance, Administración y Dirección de Empresas y Strategic Business Analytics. Esta formación me permite comprender tanto el contexto normativo y de gobierno corporativo como las necesidades del negocio, los datos y la evolución de productos digitales.",
-    "p2": "En Nestlé he progresado desde una posición de prácticas hasta asumir responsabilidades como Business Analyst y Product Owner. Trabajo dando soporte a nivel mundial, colaborando con equipos multiculturales y participando en despliegues globales de herramientas de Compliance y Corporate Governance.",
-    "p3": "Me interesa transformar necesidades complejas en soluciones claras, coordinando a las personas implicadas y facilitando la adopción de herramientas en contextos internacionales.",
+    "bridge": "<mark>Puente</mark> entre negocio, Compliance, datos y tecnología",
+    "p1": "Mi perfil combina Derecho, Global Governance, Administración y Dirección de Empresas y Strategic Business Analytics, una formación multidisciplinar que me permite entender el contexto regulatorio y de gobierno corporativo y conectarlo con las necesidades del negocio, la tecnología y los datos.",
+    "p2": "En Nestlé he evolucionado desde una posición de prácticas hasta Business Analyst, trabajando en la intersección entre negocio, Compliance y tecnología. Durante mi etapa on Mission asumí responsabilidades de Product Owner, participando en la evolución de productos, definición de requisitos, adopción y despliegue global de soluciones de Compliance Technology y Corporate Governance.",
+    "p3": "Mi trabajo se centra en transformar necesidades complejas en soluciones digitales claras y escalables, conectando stakeholders, procesos, tecnología y datos en un entorno internacional y multicultural.",
+    "p4": "Actualmente, continúo ampliando este perfil hacia la aplicación de inteligencia artificial y automatización a procesos de negocio, con especial interés en IA generativa, Microsoft 365 Copilot, automatización inteligente, AI Governance y Responsible AI, como evolución natural de mi experiencia en analytics y transformación digital.",
+    "languagesTitle": "Idiomas",
+    "languages": [
+      { "name": "Catalán", "level": "Nativo" },
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Inglés", "level": "Profesional completo" },
+      { "name": "Francés", "level": "Básico" }
+    ],
     "educationTitle": "Formación",
     "education": [
       {
         "title": "Derecho y Global Governance",
         "org": "ESADE"
+      },
+      {
+        "title": "Intercambios internacionales",
+        "org": "Singapore Management University y Bucerius Law School."
       },
       {
         "title": "Administración y Dirección de Empresas",
@@ -68,170 +84,240 @@
   },
   "experience": {
     "title": "Experiencia",
+    "heading": "Trayectoria Profesional",
     "company": "Nestlé",
     "upcomingPrefix": "Próxima etapa",
-    "achievementsTitle": "Logros y responsabilidades transversales",
+    "achievementsTitle": "Más allá del rol",
     "roles": {
       "intern": {
         "period": "Septiembre de 2023 – febrero de 2024 (6 meses)",
-        "description": "Inicio de la trayectoria en productos digitales vinculados al entorno corporativo y de Compliance."
+        "description": "Entré en productos digitales del entorno corporativo y de Compliance, traduciendo necesidades de negocio a requisitos funcionales."
       },
       "entry": {
-        "period": "Febrero de 2024 – febrero de 2025 (1 año y 1 mes)",
-        "description": "Evolución hacia responsabilidades de análisis, soporte funcional y colaboración entre las necesidades de negocio y las herramientas digitales."
+        "period": "Marzo de 2024 – febrero de 2025 (1 año)",
+        "description": "Analicé necesidades de negocio y coordiné la evolución funcional de herramientas digitales entre equipos de negocio y tecnología."
       },
       "junior": {
         "period": "Marzo de 2025 – septiembre de 2025 (7 meses)",
-        "description": "Consolidación de la experiencia como analista y participación en productos y procesos de alcance internacional."
+        "description": "Consolidé el análisis funcional en productos y procesos de Compliance de alcance internacional."
       },
       "mission": {
-        "period": "Octubre de 2025 – octubre de 2026 (1 año y 1 mes)",
-        "description": "Etapa como Business Analyst on Mission que incluyó la cobertura durante seis meses de una baja de paternidad en funciones de Product Owner, asumiendo responsabilidades adicionales de producto."
+        "period": "Octubre de 2025 – septiembre de 2026 (1 año)",
+        "description": "Business Analyst on Mission. Durante seis meses cubrí una baja de paternidad como Product Owner: requisitos, evolución de producto, adopción y coordinación con stakeholders globales."
       },
       "specialized": {
         "period": "A partir de octubre de 2026",
-        "description": "Especialización como Business Analyst en productos y procesos de Compliance y Corporate Governance."
+        "description": "Business Analyst especializada en Compliance Technology, con Corporate Governance como área de dominio dentro de productos y procesos globales."
       }
     },
     "achievements": [
-      "Progresión desde una posición de prácticas hasta responsabilidades de Business Analyst y Product Owner.",
-      "Soporte a Nestlé a nivel mundial.",
-      "Coordinación con equipos internacionales y multiculturales.",
-      "Participación en despliegues globales realizados con éxito.",
-      "Conexión entre necesidades de negocio, Compliance, Corporate Governance y tecnología.",
-      "Asunción de responsabilidades adicionales de producto durante la cobertura de una baja de paternidad.",
-      "Soporte y evolución funcional de herramientas corporativas utilizadas en contextos internacionales."
+      {
+        "lead": "Conecto negocio y tecnología",
+        "text": ", traduciendo necesidades complejas de Compliance y Corporate Governance en requisitos, procesos y soluciones digitales claras."
+      },
+      {
+        "lead": "Coordino iniciativas globales de Compliance Technology",
+        "text": ", trabajando con stakeholders internacionales y equipos multiculturales."
+      },
+      {
+        "lead": "Impulso la evolución y la adopción del producto",
+        "text": ", desde los requisitos y las mejoras funcionales hasta la incorporación de mercados y los despliegues globales."
+      },
+      {
+        "lead": "Convierto los datos en información accionable",
+        "text": ", mediante KPIs, dashboards ejecutivos y reporting que apoyan la toma de decisiones."
+      },
+      {
+        "lead": "Trabajo de forma transversal",
+        "text": ", conectando equipos de Legal, Compliance, Security, Risk, Data & Analytics y tecnología."
+      },
+      {
+        "lead": "Mejoro y automatizo procesos",
+        "text": ", identificando oportunidades para simplificar flujos de trabajo y evolucionar soluciones de Compliance."
+      }
     ]
   },
   "projects": {
     "title": "Proyectos",
-    "intro": "Áreas de producto en las que he trabajado, descritas sin información confidencial ni nombres de proveedores.",
+    "intro": "Áreas de producto descritas por su función, sin nombres de proveedores, datos internos ni configuraciones.",
     "contributionLabel": "Aportación",
+    "skillsLabel": "Capacidades",
     "filters": {
       "all": "Todas las áreas",
       "label": "Filtrar proyectos por área"
     },
     "items": {
+      "conflicts": {
+        "title": "Conflictos de interés y regalos",
+        "area": "Compliance Technology",
+        "description": "Solución global para declarar y gestionar conflictos de interés y regalos, en la etapa on Mission con responsabilidades de Product Owner.",
+        "contributions": [
+          "Coordiné el despliegue funcional y la incorporación de mercados.",
+          "Definí configuración, campañas, traducciones y formación de usuarios.",
+          "Mejoré procesos y automatización con stakeholders globales."
+        ],
+        "skills": ["Compliance Technology", "Product Ownership", "Global Rollout", "Process Optimization", "Stakeholder Management", "Change Management", "Automation"]
+      },
       "whistleblowing": {
         "title": "Sistemas de denuncias",
-        "area": "Compliance",
-        "description": "Participación como Product Owner en herramientas destinadas a apoyar procesos de whistleblowing dentro de un entorno corporativo global.",
+        "area": "Compliance Technology",
+        "description": "Plataforma de whistleblowing en un entorno corporativo global.",
         "contributions": [
-          "Conexión entre necesidades funcionales y evolución del producto.",
-          "Colaboración con equipos y usuarios internacionales.",
-          "Apoyo a la adopción y al despliegue global.",
-          "Seguimiento de necesidades dentro de un ámbito sensible de Compliance."
-        ]
+          "Evolucioné el producto a partir de requisitos de negocio.",
+          "Coordiné el trabajo funcional con Compliance y Legal.",
+          "Analicé datos de proceso y definí necesidades de integración."
+        ],
+        "skills": ["Compliance Technology", "Business Analysis", "Requirements Management", "Integrations", "Data", "Legal Technology"]
+      },
+      "governance": {
+        "title": "Plataforma de Corporate Governance",
+        "area": "Corporate Governance",
+        "description": "Evolución funcional de una plataforma global de gobierno corporativo.",
+        "contributions": [
+          "Traduje requisitos de negocio en cambios de producto.",
+          "Coordiné integraciones con sistemas corporativos y el dato maestro.",
+          "Mejoré el reporting y el proceso de forma continua."
+        ],
+        "skills": ["Corporate Governance", "Data Governance", "Business Analysis", "System Integration", "Master Data", "Process Improvement"]
+      },
+      "complianceHub": {
+        "title": "Compliance Hub",
+        "area": "Transformación digital",
+        "description": "Portal para centralizar el acceso a aplicaciones y recursos de Legal & Compliance.",
+        "contributions": [
+          "Recogí requisitos y coordiné stakeholders globales.",
+          "Evolucioné la experiencia de uso y la adopción.",
+          "Organicé el acceso a aplicaciones y recursos de Compliance."
+        ],
+        "skills": ["Digital Transformation", "Product Management", "UX", "Stakeholder Management", "Compliance Technology"]
+      },
+      "analytics": {
+        "title": "Compliance Analytics y Power BI",
+        "area": "Data & Analytics",
+        "description": "Reporting visual para la dirección global de Compliance.",
+        "contributions": [
+          "Diseñé dashboards ejecutivos y definí KPIs de Compliance.",
+          "Estandaricé la visualización y el reporting.",
+          "Facilité decisiones a partir de datos operativos."
+        ],
+        "skills": ["Power BI", "Business Intelligence", "Data Analytics", "KPI Design", "Executive Reporting", "Data Visualization"]
       },
       "socialAudit": {
         "title": "Herramientas de auditorías sociales",
-        "area": "Compliance y sostenibilidad corporativa",
-        "description": "Trabajo con productos digitales que dan soporte a procesos de auditoría social.",
+        "area": "Compliance Technology",
+        "description": "Planificación, seguimiento y reporting de auditorías sociales.",
         "contributions": [
-          "Análisis de necesidades funcionales.",
-          "Coordinación dentro de un contexto internacional.",
-          "Soporte a la evolución y utilización del producto.",
-          "Participación en despliegues globales."
-        ]
+          "Definí el seguimiento de auditorías y de indicadores.",
+          "Analicé indicadores para el reporting de Compliance.",
+          "Mejoré el proceso de seguimiento de forma continua."
+        ],
+        "skills": ["Compliance Monitoring", "Social Audits", "Analytics", "KPI Management", "Process Improvement"]
       },
       "repositories": {
         "title": "Repositorios documentales",
         "area": "Gestión de información",
-        "description": "Participación en herramientas destinadas a organizar y facilitar el acceso a documentación corporativa.",
+        "description": "Herramientas para organizar y facilitar el acceso a documentación corporativa.",
         "contributions": [
-          "Comprensión de las necesidades de negocio y de los usuarios.",
-          "Soporte funcional.",
-          "Coordinación de mejoras y evolución de la herramienta.",
-          "Atención a la estructura y disponibilidad de la información."
-        ]
-      },
-      "governance": {
-        "title": "Herramientas de Corporate Governance",
-        "area": "Gobierno corporativo",
-        "description": "Experiencia con productos destinados a gestionar información, entidades y procesos vinculados al gobierno corporativo.",
-        "contributions": [
-          "Análisis funcional en un ámbito especializado.",
-          "Colaboración con equipos de Corporate Governance.",
-          "Soporte a usuarios y procesos internacionales.",
-          "Participación en la evolución de herramientas corporativas."
-        ]
-      },
-      "conflicts": {
-        "title": "Conflictos de interés y regalos",
-        "area": "Ética y Compliance",
-        "description": "Soporte a herramientas relacionadas con la declaración y gestión de conflictos de interés y regalos.",
-        "contributions": [
-          "Soporte funcional a las herramientas.",
-          "Comprensión de procesos de Compliance.",
-          "Atención a las necesidades de los usuarios.",
-          "Colaboración dentro de un entorno global y multicultural."
-        ]
+          "Traduje necesidades de usuarios en evolución funcional.",
+          "Organicé la estructura y la disponibilidad de la información.",
+          "Coordiné mejoras con equipos de negocio."
+        ],
+        "skills": ["Business Analysis", "Information Management", "Functional Analysis", "Stakeholder Management"]
       }
     }
+  },
+  "focus": {
+    "kicker": "Enfoque",
+    "title": "Mi propuesta de valor",
+    "items": [
+      {
+        "title": "Compliance Technology",
+        "body": "Conecto requisitos regulatorios y de negocio con soluciones digitales escalables."
+      },
+      {
+        "title": "Producto y Business Analysis",
+        "body": "Traduzco necesidades complejas en requisitos claros, procesos y mejoras de producto."
+      },
+      {
+        "title": "Data & Analytics",
+        "body": "Convierto datos operativos y de Compliance en dashboards, KPIs e información accionable."
+      },
+      {
+        "title": "IA y transformación digital",
+        "body": "Exploro IA, automatización y herramientas inteligentes para simplificar procesos y mejorar la decisión de forma responsable."
+      }
+    ]
   },
   "skills": {
     "title": "Habilidades",
     "groups": {
-      "product": {
-        "title": "Producto y análisis",
+      "business": {
+        "title": "Business y producto",
         "items": [
           "Business Analysis",
           "Product Ownership",
-          "Análisis de necesidades funcionales",
-          "Coordinación entre negocio y tecnología",
-          "Soporte funcional",
-          "Evolución de productos digitales",
+          "Scrum",
+          "Kanban",
+          "User Stories",
+          "Gestión del backlog",
+          "Análisis de requisitos",
+          "Gestión de stakeholders",
+          "Mejora de procesos",
+          "Change Management",
           "Despliegues globales",
-          "Trabajo con equipos internacionales",
-          "Kanban"
+          "Colaboración transversal"
         ]
       },
-      "expertise": {
-        "title": "Especialización",
+      "compliance": {
+        "title": "Compliance y Governance",
         "items": [
-          "Compliance",
+          "Compliance Technology",
+          "Governance, Risk & Compliance (GRC)",
+          "IT Security & Compliance",
           "Corporate Governance",
-          "Whistleblowing systems",
-          "Auditorías sociales",
-          "Repositorios documentales",
+          "Legal & Compliance Technology",
+          "Whistleblowing",
           "Conflictos de interés",
-          "Procesos relacionados con regalos corporativos"
+          "Auditorías sociales",
+          "Data Governance"
         ]
       },
-      "tools": {
-        "title": "Herramientas",
+      "data": {
+        "title": "Datos y tecnología",
         "items": [
-          "Power BI — habilidad destacada",
+          "Data Analytics",
+          "Power BI",
+          "Business Intelligence",
+          "Diseño de dashboards",
+          "Definición de KPIs",
+          "Data Visualization",
+          "Microsoft Power Platform",
           "Power Apps",
           "Power Automate",
-          "Microsoft Power Platform"
+          "Integraciones API",
+          "Integración de sistemas"
         ]
       },
-      "strengths": {
-        "title": "Competencias",
+      "ai": {
+        "title": "IA y transformación",
         "items": [
-          "Comunicación intercultural",
-          "Adaptación a entornos globales",
-          "Pensamiento analítico",
-          "Coordinación de stakeholders",
-          "Comprensión de contextos normativos y de negocio",
-          "Traducción de necesidades complejas en soluciones funcionales"
-        ]
-      },
-      "languages": {
-        "title": "Idiomas",
-        "items": [
-          "Español",
-          "Catalán",
-          "Inglés",
-          "Francés — nivel medio"
+          "Inteligencia artificial",
+          "IA generativa",
+          "Microsoft 365 Copilot",
+          "Optimización de procesos con IA",
+          "Automatización inteligente",
+          "AI Governance",
+          "Responsible AI",
+          "Transformación digital"
         ]
       }
     }
   },
   "contact": {
     "title": "Contacto",
-    "intro": "¿Quieres hablar sobre una oportunidad, un proyecto o un reto relacionado con producto, Compliance o Corporate Governance? Puedes escribirme a través del formulario o conectar conmigo en LinkedIn.",
+    "heading": "Conectemos",
+    "intro": "Siempre estoy abierta a conectar con personas, ideas y oportunidades en la intersección entre negocio, tecnología, Compliance, producto, datos e IA.",
+    "body": "Si crees que podemos intercambiar perspectivas, explorar una oportunidad o simplemente tener una buena conversación, estaré encantada de saber de ti.",
     "linkedin": "Conectar en LinkedIn",
     "fields": {
       "name": "Nombre",
@@ -248,10 +334,6 @@
     "success": "Gracias por contactar. He recibido tu mensaje y responderé lo antes posible.",
     "sendError": "No se ha podido enviar el mensaje. Inténtalo de nuevo más tarde o contacta conmigo a través de LinkedIn.",
     "notEnabled": "El envío del formulario no está habilitado todavía. Contacta conmigo a través de LinkedIn."
-  },
-  "footer": {
-    "personal": "Web personal",
-    "independence": "Sitio independiente, no afiliado a Nestlé."
   },
   "notFound": {
     "title": "Página no encontrada",

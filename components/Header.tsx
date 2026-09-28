@@ -47,46 +47,43 @@ export function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-40 px-3 pt-3 sm:px-5">
-      <div className="relative mx-auto flex w-full max-w-6xl items-center gap-3 px-1 py-3 sm:px-2">
-        <a
-          href="#home"
-          className="shrink-0 text-sm font-semibold text-foreground sm:text-base"
-        >
+    <header className="fixed inset-x-0 top-0 z-50 bg-background/70 backdrop-blur-sm">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+        <a href="#home" className="shrink-0 text-sm font-semibold tracking-tight text-ink">
           {hero("name")}
         </a>
-        <nav
-          className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 lg:flex"
-          aria-label={a11y("mainNav")}
-        >
+        <nav className="hidden items-center gap-4 xl:flex" aria-label={a11y("mainNav")}>
           {SECTION_IDS.map((id) => (
             <a
               key={id}
               href={`#${id}`}
-              className={`rounded-full px-3 py-2 text-sm font-medium ${
-                active === id
-                  ? "bg-lilac text-foreground"
-                  : "text-muted hover:text-foreground"
+              className={`text-sm transition-colors hover:text-ink ${
+                active === id ? "font-medium text-ink" : "text-ink-soft"
               }`}
               aria-current={active === id ? "true" : undefined}
             >
               {t(id)}
             </a>
           ))}
+          <a
+            href="#contact"
+            className="rounded-full bg-rose-deep px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-teal"
+          >
+            {hero("ctaContact")}
+          </a>
+          <LanguageSwitcher />
         </nav>
-        <div className="ml-auto flex items-center gap-1">
+        <div className="flex items-center gap-2 xl:hidden">
           <LanguageSwitcher />
           <button
             type="button"
-            className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full border border-line lg:hidden"
+            className="inline-flex size-10 items-center justify-center rounded-full border border-sand text-ink"
             aria-expanded={open}
             aria-controls="mobile-nav"
             onClick={() => setOpen((value) => !value)}
           >
-            <span className="sr-only">
-              {open ? a11y("closeMenu") : a11y("openMenu")}
-            </span>
-            <span aria-hidden="true" className="text-lg leading-none text-foreground">
+            <span className="sr-only">{open ? a11y("closeMenu") : a11y("openMenu")}</span>
+            <span aria-hidden="true" className="text-lg leading-none">
               {open ? "×" : "☰"}
             </span>
           </button>
@@ -95,15 +92,15 @@ export function Header() {
       {open ? (
         <nav
           id="mobile-nav"
-          className="mx-auto mt-2 max-w-6xl rounded-[28px] border border-line bg-card px-4 py-3 shadow-[var(--shadow)] lg:hidden"
+          className="border-t border-sand bg-background px-4 py-3 xl:hidden"
           aria-label={a11y("mainNav")}
         >
-          <ul className="flex flex-col">
+          <ul className="mx-auto flex max-w-6xl flex-col">
             {SECTION_IDS.map((id) => (
               <li key={id}>
                 <a
                   href={`#${id}`}
-                  className="block min-h-11 rounded-full px-3 py-2 font-medium text-foreground"
+                  className="block min-h-11 rounded-full px-3 py-2 font-medium text-ink"
                   onClick={() => setOpen(false)}
                 >
                   {t(id)}

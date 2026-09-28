@@ -48,7 +48,7 @@
     "title": "Sobre mí",
     "bridge": "<mark>Puente</mark> entre negocio, Compliance, datos y tecnología",
     "p1": "Mi perfil combina Derecho, Global Governance, Administración y Dirección de Empresas y Strategic Business Analytics, una formación multidisciplinar que me permite entender el contexto regulatorio y de gobierno corporativo y conectarlo con las necesidades del negocio, la tecnología y los datos.",
-    "p2": "En Nestlé he evolucionado desde una posición de prácticas hasta Business Analyst, trabajando en la intersección entre negocio, Compliance y tecnología. Durante mi etapa on Mission asumí responsabilidades de Product Owner, participando en la evolución de productos, definición de requisitos, adopción y despliegue global de soluciones de Compliance Technology y Corporate Governance.",
+    "p2": "En Nestlé he evolucionado desde una posición de prácticas hasta Business Analyst, trabajando en la intersección entre negocio, Compliance y tecnología. Durante mi etapa Mission asumí responsabilidades de Product Owner, participando en la evolución de productos, definición de requisitos, adopción y despliegue global de soluciones de Compliance Technology y Corporate Governance.",
     "p3": "Mi trabajo se centra en transformar necesidades complejas en soluciones digitales claras y escalables, conectando stakeholders, procesos, tecnología y datos en un entorno internacional y multicultural.",
     "p4": "Actualmente, continúo ampliando este perfil hacia la aplicación de inteligencia artificial y automatización a procesos de negocio, con especial interés en IA generativa, Microsoft 365 Copilot, automatización inteligente, AI Governance y Responsible AI, como evolución natural de mi experiencia en analytics y transformación digital.",
     "languagesTitle": "Idiomas",
@@ -103,7 +103,7 @@
       },
       "mission": {
         "period": "Octubre de 2025 – septiembre de 2026 (1 año)",
-        "description": "Business Analyst on Mission. Durante seis meses cubrí una baja de paternidad como Product Owner: requisitos, evolución de producto, adopción y coordinación con stakeholders globales."
+        "description": "Business Analyst Mission. Durante seis meses cubrí una baja de paternidad como Product Owner: requisitos, evolución de producto, adopción y coordinación con stakeholders globales."
       },
       "specialized": {
         "period": "A partir de octubre de 2026",
@@ -138,91 +138,91 @@
     ]
   },
   "projects": {
-    "title": "Proyectos",
-    "intro": "Áreas de producto descritas por su función, sin nombres de proveedores, datos internos ni configuraciones.",
-    "contributionLabel": "Aportación",
-    "skillsLabel": "Capacidades",
-    "filters": {
-      "all": "Todas las áreas",
-      "label": "Filtrar proyectos por área"
+    "kicker": "Proyectos",
+    "title": "Proyectos destacados",
+    "intro": "Una selección de proyectos que reflejan mi experiencia en Compliance Technology, Corporate Governance, Business Analysis, datos y transformación digital.",
+    "mission": {
+      "kicker": "Product Ownership Experience",
+      "title": "Una etapa con mayor responsabilidad de producto",
+      "body": "Durante mi etapa Mission asumí responsabilidades de Product Owner. Esta experiencia me dio mayor ownership en la evolución de producto, los requisitos, los despliegues globales, la adopción y la mejora continua."
     },
     "items": {
       "conflicts": {
         "title": "Conflictos de interés y regalos",
-        "area": "Compliance Technology",
-        "description": "Solución global para declarar y gestionar conflictos de interés y regalos, en la etapa on Mission con responsabilidades de Product Owner.",
+        "area": "Compliance Technology · Product Ownership · Mission",
+        "description": "Solución global para la declaración y gestión de conflictos de interés y regalos, sobre la que asumí responsabilidades de Product Owner durante mi etapa Mission.",
         "contributions": [
           "Coordiné el despliegue funcional y la incorporación de mercados.",
-          "Definí configuración, campañas, traducciones y formación de usuarios.",
-          "Mejoré procesos y automatización con stakeholders globales."
+          "Trabajé en configuración funcional, campañas, traducciones y formación de usuarios.",
+          "Impulsé mejoras de proceso y oportunidades de automatización junto a stakeholders globales."
         ],
-        "skills": ["Compliance Technology", "Product Ownership", "Global Rollout", "Process Optimization", "Stakeholder Management", "Change Management", "Automation"]
+        "skills": ["Product Ownership", "Compliance Technology", "Global Rollout", "Stakeholder Management", "Change Management", "Process Optimization", "Automation"]
       },
       "whistleblowing": {
         "title": "Sistemas de denuncias",
         "area": "Compliance Technology",
-        "description": "Plataforma de whistleblowing en un entorno corporativo global.",
+        "description": "Plataforma global para dar soporte a procesos de whistleblowing dentro de un entorno corporativo internacional.",
         "contributions": [
-          "Evolucioné el producto a partir de requisitos de negocio.",
-          "Coordiné el trabajo funcional con Compliance y Legal.",
-          "Analicé datos de proceso y definí necesidades de integración."
+          "Contribuyo a la evolución funcional a partir de necesidades de negocio.",
+          "Coordino necesidades funcionales con equipos de Compliance y Legal.",
+          "Analizo datos de proceso y participo en la definición de necesidades de integración."
         ],
         "skills": ["Compliance Technology", "Business Analysis", "Requirements Management", "Integrations", "Data", "Legal Technology"]
       },
       "governance": {
         "title": "Plataforma de Corporate Governance",
         "area": "Corporate Governance",
-        "description": "Evolución funcional de una plataforma global de gobierno corporativo.",
+        "description": "Evolución funcional de una plataforma global para la gestión de información, entidades y procesos de gobierno corporativo.",
         "contributions": [
-          "Traduje requisitos de negocio en cambios de producto.",
-          "Coordiné integraciones con sistemas corporativos y el dato maestro.",
-          "Mejoré el reporting y el proceso de forma continua."
+          "Traduzco necesidades de negocio en requisitos y mejoras funcionales.",
+          "Colaboro en integraciones con sistemas corporativos y en la gestión del dato maestro.",
+          "Contribuyo a la evolución del reporting y a la mejora continua de procesos."
         ],
-        "skills": ["Corporate Governance", "Data Governance", "Business Analysis", "System Integration", "Master Data", "Process Improvement"]
+        "skills": ["Corporate Governance", "Business Analysis", "Data Governance", "System Integration", "Master Data", "Process Improvement"]
       },
       "complianceHub": {
         "title": "Compliance Hub",
         "area": "Transformación digital",
-        "description": "Portal para centralizar el acceso a aplicaciones y recursos de Legal & Compliance.",
+        "description": "Portal centralizado para facilitar el acceso a aplicaciones y recursos de Legal & Compliance.",
         "contributions": [
-          "Recogí requisitos y coordiné stakeholders globales.",
-          "Evolucioné la experiencia de uso y la adopción.",
-          "Organicé el acceso a aplicaciones y recursos de Compliance."
+          "Recopilo y traduzco necesidades de stakeholders globales en requisitos funcionales.",
+          "Contribuyo a la evolución de la experiencia de usuario y a la adopción.",
+          "Organizo y simplifico el acceso a aplicaciones y recursos de Compliance."
         ],
-        "skills": ["Digital Transformation", "Product Management", "UX", "Stakeholder Management", "Compliance Technology"]
+        "skills": ["Digital Transformation", "Business Analysis", "Product Management", "UX", "Stakeholder Management", "Compliance Technology"]
       },
       "analytics": {
-        "title": "Compliance Analytics y Power BI",
+        "title": "Compliance Analytics & Power BI",
         "area": "Data & Analytics",
-        "description": "Reporting visual para la dirección global de Compliance.",
+        "description": "Dashboards, KPIs y reporting para transformar datos operativos de Compliance en información útil para la toma de decisiones.",
         "contributions": [
-          "Diseñé dashboards ejecutivos y definí KPIs de Compliance.",
-          "Estandaricé la visualización y el reporting.",
-          "Facilité decisiones a partir de datos operativos."
+          "Diseño dashboards ejecutivos y defino KPIs de Compliance.",
+          "Estandarizo y modernizo la visualización y el reporting.",
+          "Transformo datos operativos en información accionable para facilitar la toma de decisiones."
         ],
         "skills": ["Power BI", "Business Intelligence", "Data Analytics", "KPI Design", "Executive Reporting", "Data Visualization"]
       },
       "socialAudit": {
         "title": "Herramientas de auditorías sociales",
         "area": "Compliance Technology",
-        "description": "Planificación, seguimiento y reporting de auditorías sociales.",
+        "description": "Herramientas digitales para la planificación, seguimiento y reporting de auditorías sociales.",
         "contributions": [
-          "Definí el seguimiento de auditorías y de indicadores.",
-          "Analicé indicadores para el reporting de Compliance.",
-          "Mejoré el proceso de seguimiento de forma continua."
+          "Contribuyo a la definición del seguimiento de auditorías e indicadores.",
+          "Analizo indicadores para reporting y seguimiento de Compliance.",
+          "Identifico oportunidades de mejora continua en los procesos de seguimiento."
         ],
         "skills": ["Compliance Monitoring", "Social Audits", "Analytics", "KPI Management", "Process Improvement"]
       },
       "repositories": {
         "title": "Repositorios documentales",
         "area": "Gestión de información",
-        "description": "Herramientas para organizar y facilitar el acceso a documentación corporativa.",
+        "description": "Soluciones digitales para organizar, estructurar y facilitar el acceso a documentación corporativa.",
         "contributions": [
-          "Traduje necesidades de usuarios en evolución funcional.",
-          "Organicé la estructura y la disponibilidad de la información.",
-          "Coordiné mejoras con equipos de negocio."
+          "Traduzco necesidades de usuarios en requisitos y mejoras funcionales.",
+          "Contribuyo a organizar la estructura y disponibilidad de la información.",
+          "Coordino mejoras funcionales con equipos de negocio."
         ],
-        "skills": ["Business Analysis", "Information Management", "Functional Analysis", "Stakeholder Management"]
+        "skills": ["Information Management", "Business Analysis", "Functional Analysis", "Stakeholder Management", "Process Improvement"]
       }
     }
   },

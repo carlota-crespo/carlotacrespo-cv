@@ -18,7 +18,7 @@ export const EXPERIENCE_ROLES = [
   { id: "intern" as const, title: "IT Product Owner Intern" },
   { id: "entry" as const, title: "Analyst Jr Entry" },
   { id: "junior" as const, title: "Analyst Jr" },
-  { id: "mission" as const, title: "Business Analyst on Mission" },
+  { id: "mission" as const, title: "Business Analyst Mission" },
   {
     id: "specialized" as const,
     title:
@@ -26,15 +26,25 @@ export const EXPERIENCE_ROLES = [
   },
 ];
 
-export const PROJECT_IDS = [
-  "conflicts",
-  "whistleblowing",
+export const CORE_PROJECT_IDS = [
   "governance",
-  "complianceHub",
   "analytics",
+  "whistleblowing",
+  "complianceHub",
   "socialAudit",
   "repositories",
 ] as const;
+
+export const PRIMARY_PROJECT_IDS = [
+  "governance",
+  "analytics",
+  "whistleblowing",
+  "complianceHub",
+] as const;
+
+export const MISSION_PROJECT_ID = "conflicts" as const;
+
+export const PROJECT_IDS = [...CORE_PROJECT_IDS, MISSION_PROJECT_ID] as const;
 
 export type ProjectId = (typeof PROJECT_IDS)[number];
 

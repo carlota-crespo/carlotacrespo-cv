@@ -84,30 +84,32 @@
   },
   "experience": {
     "title": "Experience",
-    "heading": "Professional experience",
+    "heading": "Professional Journey",
     "company": "Nestlé",
-    "upcomingPrefix": "Upcoming role",
+    "badges": {
+      "current": "Current position"
+    },
     "achievementsTitle": "Beyond the Role",
     "roles": {
       "intern": {
-        "period": "September 2023 – February 2024 (6 months)",
-        "description": "Joined digital products in the corporate and Compliance environment, translating business needs into functional requirements."
+        "period": "September 2023 – February 2024 · 6 months",
+        "description": "Started my journey in digital products within the corporate and Compliance environment, supporting functional requirements and connecting business needs with technology."
       },
       "entry": {
-        "period": "March 2024 – February 2025 (1 year)",
-        "description": "Analysed business needs and coordinated the functional evolution of digital tools between business and technology teams."
+        "period": "March 2024 – February 2025 · 1 year",
+        "description": "Progressed into functional analysis, translating business needs into requirements and coordinating the evolution of digital solutions between business and technology teams."
       },
       "junior": {
-        "period": "March 2025 – September 2025 (7 months)",
-        "description": "Consolidated functional analysis on Compliance products and processes with an international scope."
+        "period": "March 2025 – September 2025 · 7 months",
+        "description": "Expanded my functional analysis responsibilities across Compliance products and processes, working with international stakeholders and supporting product evolution."
       },
       "mission": {
-        "period": "October 2025 – September 2026 (1 year)",
-        "description": "Business Analyst Mission. For six months I covered a paternity leave as Product Owner: requirements, product evolution, adoption and coordination with global stakeholders."
+        "period": "October 2025 – September 2026 · 1 year",
+        "description": "Expanded my Business Analyst scope through an international mission. I assumed a Product Owner role with responsibility for requirements, product evolution, adoption and global stakeholder coordination."
       },
       "specialized": {
         "period": "From October 2026",
-        "description": "Business Analyst specialised in Compliance Technology, with Corporate Governance as a domain within global products and processes."
+        "description": "Specialising in Compliance Technology and Corporate Governance, connecting business needs, digital products, data and technology in a global environment."
       }
     },
     "achievements": [

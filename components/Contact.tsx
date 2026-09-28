@@ -12,7 +12,7 @@ export function Contact() {
 
   return (
     <Section id="contact" className="scroll-mt-24 py-16 sm:py-24">
-      <div className="max-w-3xl">
+      <div>
           <SectionKicker index={6}>{t("title")}</SectionKicker>
           <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">
             <a
@@ -23,8 +23,12 @@ export function Contact() {
               {t("heading")}
             </a>
           </h2>
-          <p className="mt-4 text-ink-soft">{t("intro")}</p>
-          <p className="mt-4 text-ink-soft">{t("body")}</p>
+          <p className="mt-4 text-base leading-relaxed text-pretty text-ink-soft min-[1536px]:text-lg">
+            {t("intro")}
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-pretty text-ink-soft min-[1536px]:text-lg">
+            {t("body")}
+          </p>
           <p className="mt-8">
             <a
               href={`mailto:${EMAIL}`}

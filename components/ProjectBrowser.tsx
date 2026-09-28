@@ -93,10 +93,10 @@ export function ProjectBrowser({
             <p className="text-xs font-semibold tracking-[0.18em] text-rose-deep uppercase">
               {missionKicker}
             </p>
-            <h3 className="mt-2 max-w-3xl text-xl font-semibold text-ink sm:text-2xl">
+            <h3 className="mt-2 text-xl font-semibold text-ink sm:text-2xl">
               {missionTitle}
             </h3>
-            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
+            <p className="mt-3 text-sm leading-relaxed text-pretty text-ink-soft sm:text-base min-[1536px]:text-lg">
               {missionBody}
             </p>
             <div className="mt-6 md:max-w-[calc(50%-0.625rem)]">

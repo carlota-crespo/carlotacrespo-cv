@@ -24,7 +24,7 @@ export function SectionHeading({
 
   return (
     <div className="mb-10 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-      <div className="max-w-3xl">
+      <div className="w-full">
         {index ? (
           <SectionKicker index={index}>{kicker}</SectionKicker>
         ) : kicker ? (
@@ -36,7 +36,7 @@ export function SectionHeading({
           {title}
         </h2>
         {description ? (
-          <p className={`mt-4 max-w-2xl text-base leading-relaxed ${descriptionColor}`}>
+          <p className={`mt-4 text-base leading-relaxed text-pretty min-[1536px]:text-lg ${descriptionColor}`}>
             {description}
           </p>
         ) : null}

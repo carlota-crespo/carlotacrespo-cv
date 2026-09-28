@@ -10,14 +10,14 @@ export async function About() {
   return (
     <Section id="about" className="scroll-mt-24 py-16 sm:py-24">
       <SectionKicker index={1}>{t("title")}</SectionKicker>
-      <h2 className="mt-2 max-w-3xl text-2xl font-semibold text-ink sm:text-3xl">
+      <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">
         {t.rich("bridge", {
           mark: (chunks) => (
             <mark className="rounded-md bg-rose px-1.5 text-ink">{chunks}</mark>
           ),
         })}
       </h2>
-      <div className="mt-6 max-w-3xl space-y-4 text-base leading-relaxed text-ink-soft">
+      <div className="mt-6 space-y-4 text-base leading-relaxed text-pretty text-ink-soft min-[1536px]:text-lg">
         <p>{t("p1")}</p>
         <p>{t("p2")}</p>
         <p>{t("p3")}</p>

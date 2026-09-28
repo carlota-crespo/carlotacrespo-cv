@@ -15,7 +15,7 @@ export function Hero() {
       id="home"
       className="relative scroll-mt-20 px-4 pt-28 pb-16 sm:px-6 sm:pt-32 sm:pb-24"
     >
-      <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+      <div className="mx-auto grid w-full max-w-6xl gap-10 min-[1536px]:max-w-7xl min-[1920px]:max-w-[90rem] lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
         <div>
           <div className="flex items-center gap-4 sm:gap-5">
             <Image

@@ -48,7 +48,7 @@ export function Header() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-background/70 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6 min-[1536px]:max-w-7xl min-[1920px]:max-w-[90rem]">
         <nav className="ml-auto hidden items-center gap-4 xl:flex" aria-label={a11y("mainNav")}>
           {SECTION_IDS.map((id) => (
             <a
@@ -92,7 +92,7 @@ export function Header() {
           className="border-t border-sand bg-background px-4 py-3 xl:hidden"
           aria-label={a11y("mainNav")}
         >
-          <ul className="mx-auto flex max-w-6xl flex-col">
+          <ul className="mx-auto flex w-full max-w-6xl flex-col min-[1536px]:max-w-7xl min-[1920px]:max-w-[90rem]">
             {SECTION_IDS.map((id) => (
               <li key={id}>
                 <a

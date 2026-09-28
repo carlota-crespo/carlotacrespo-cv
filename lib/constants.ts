@@ -19,11 +19,10 @@ export const EXPERIENCE_ROLES = [
   { id: "intern" as const, title: "IT Product Owner Intern" },
   { id: "entry" as const, title: "Analyst Jr Entry" },
   { id: "junior" as const, title: "Analyst Jr" },
-  { id: "mission" as const, title: "Business Analyst Mission" },
+  { id: "mission" as const, title: "Business Analyst · On Mission" },
   {
     id: "specialized" as const,
-    title:
-      "Business Analyst specialized in Compliance & Corporate Governance",
+    title: "Business Analyst — Compliance & Corporate Governance",
   },
 ];
 

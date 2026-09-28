@@ -84,30 +84,32 @@
   },
   "experience": {
     "title": "Experiencia",
-    "heading": "Trayectoria Profesional",
+    "heading": "Trayectoria profesional",
     "company": "Nestlé",
-    "upcomingPrefix": "Próxima etapa",
+    "badges": {
+      "current": "Puesto actual"
+    },
     "achievementsTitle": "Más allá del rol",
     "roles": {
       "intern": {
-        "period": "Septiembre de 2023 – febrero de 2024 (6 meses)",
-        "description": "Entré en productos digitales del entorno corporativo y de Compliance, traduciendo necesidades de negocio a requisitos funcionales."
+        "period": "Septiembre 2023 – Febrero 2024 · 6 meses",
+        "description": "Inicié mi trayectoria en productos digitales dentro del entorno corporativo y de Compliance, apoyando la definición de requisitos funcionales y conectando necesidades de negocio con tecnología."
       },
       "entry": {
-        "period": "Marzo de 2024 – febrero de 2025 (1 año)",
-        "description": "Analicé necesidades de negocio y coordiné la evolución funcional de herramientas digitales entre equipos de negocio y tecnología."
+        "period": "Marzo 2024 – Febrero 2025 · 1 año",
+        "description": "Evolucioné hacia el análisis funcional, traduciendo necesidades de negocio en requisitos y coordinando la evolución de soluciones digitales entre equipos de negocio y tecnología."
       },
       "junior": {
-        "period": "Marzo de 2025 – septiembre de 2025 (7 meses)",
-        "description": "Consolidé el análisis funcional en productos y procesos de Compliance de alcance internacional."
+        "period": "Marzo 2025 – Septiembre 2025 · 7 meses",
+        "description": "Amplié mis responsabilidades de análisis funcional en productos y procesos de Compliance, trabajando con stakeholders internacionales y contribuyendo a la evolución de productos digitales."
       },
       "mission": {
-        "period": "Octubre de 2025 – septiembre de 2026 (1 año)",
-        "description": "Business Analyst Mission. Durante seis meses cubrí una baja de paternidad como Product Owner: requisitos, evolución de producto, adopción y coordinación con stakeholders globales."
+        "period": "Octubre 2025 – Septiembre 2026 · 1 año",
+        "description": "Amplié mi alcance como Business Analyst durante una mission internacional. Asumí un rol de Product Owner con responsabilidad sobre requisitos, evolución de producto, adopción y coordinación con stakeholders globales."
       },
       "specialized": {
         "period": "A partir de octubre de 2026",
-        "description": "Business Analyst especializada en Compliance Technology, con Corporate Governance como área de dominio dentro de productos y procesos globales."
+        "description": "Especialización en Compliance Technology y Corporate Governance, conectando necesidades de negocio, productos digitales, datos y tecnología en un entorno global."
       }
     },
     "achievements": [
